@@ -1,0 +1,177 @@
+{
+  "tables": [
+    {
+      "name": "peserta",
+      "columns": [
+        {
+          "name": "nim",
+          "type": "CHAR(8)",
+          "primary": true
+        },
+        {
+          "name": "nama",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "prodi",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "gender",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "bahasa_jawa",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "riwayat_penyakit",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "berkebutuhan_khusus",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "id_kelompok",
+          "type": "INTEGER",
+          "foreign": true,
+          "references": "kelompok.id_kelompok"
+        }
+      ]
+    },
+    {
+      "name": "kelompok",
+      "columns": [
+        {
+          "name": "id_kelompok",
+          "type": "INTEGER",
+          "primary": true
+        },
+        {
+          "name": "nomor_kelompok",
+          "type": "INTEGER"
+        },
+        {
+          "name": "desa",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "dusun",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "faskes",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "kapasitas",
+          "type": "INTEGER"
+        },
+        {
+          "name": "nip",
+          "type": "INTEGER",
+          "foreign": true,
+          "references": "dpl.nip"
+        },
+        {
+          "name": "nim_apl",
+          "type": "INTEGER",
+          "foreign": true,
+          "references": "apl.nim_apl"
+        }
+      ]
+    },
+    {
+      "name": "dpl",
+      "columns": [
+        {
+          "name": "nip",
+          "type": "INTEGER",
+          "primary": true
+        },
+        {
+          "name": "nama_dpl",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "no_telp",
+          "type": "CHAR(12)"
+        }
+      ]
+    },
+    {
+      "name": "apl",
+      "columns": [
+        {
+          "name": "nim_apl",
+          "type": "INTEGER",
+          "primary": true
+        },
+        {
+          "name": "nama_apl",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "no_telp",
+          "type": "CHAR(12)"
+        }
+      ]
+    },
+    {
+      "name": "user",
+      "columns": [
+        {
+          "name": "id_user",
+          "type": "INTEGER",
+          "primary": true
+        },
+        {
+          "name": "username",
+          "type": "VARCHAR(50)",
+          "unique": true
+        },
+        {
+          "name": "password",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "role",
+          "type": "VARCHAR(255)"
+        }
+      ]
+    },
+    {
+      "name": "activity_log",
+      "columns": [
+        {
+          "name": "id_log",
+          "type": "INTEGER",
+          "primary": true
+        },
+        {
+          "name": "aktivitas",
+          "type": "VARCHAR(255)"
+        },
+        {
+          "name": "username",
+          "type": "VARCHAR(50)",
+          "foreign": true,
+          "references": "user.username"
+        }
+      ]
+    }
+  ]
+}

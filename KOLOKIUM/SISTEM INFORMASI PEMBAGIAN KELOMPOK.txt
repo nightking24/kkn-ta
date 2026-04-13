@@ -1,0 +1,30 @@
+SISTEM INFORMASI PEMBAGIAN KELOMPOK KKN BERBASIS WEB UNIVERSITAS KRISTEN DUTA WACANA
+
+Proyek saya ini adalah tentang Sistem Informasi Pembagian Kelompok KKN Berbasis Web Universitas Kristen Duta Wacana. Proyek saya ini bertujuan untuk menghasilkan Sistem Informasi Pembagian Kelompok KKN Berbasis Web bagi Lembaga Penelitian dan Pengabdian pada Masyarakat (LPPM) Universitas Kristen Duta Wacana. Sistem informasi ini dirancang untuk menggantikan proses pembagian kelompok KKN yang selama ini dilakukan secara manual menggunakan Microsoft Excel. Sistem informasi yang dirancang ini menyajikan fitur utama berupa randomisasi otomatis, penyesuaian dan pengelompokkan peserta KKN berdasarkan jenis IPK, wilayah, dan kebutuhan khusus peserta KKN, kemudian pemilihan kelompok peserta KKN secara manual melalui admin staff LPPM sendiri, serta memberikan fasilitas penetapan pembimbing DPL dan APL. Selain itu, sistem informasi ini juga menyajikan fitur pendukung seperti memberikan notifikasi kepada peserta KKN mengenai kelompok mereka yang sudah dipilihkan dan pencatatan riwayat pembagian kelompok KKN. Sistem informasi ini berbasis web sehingga dapat diakses oleh admin LPPM, peserta KKN, DPL, dan APL secara mudah, cepat, dan terstruktur.
+
+Lembaga Penelitian dan Pengabdian pada Masyarakat (LPPM) Universitas Kristen Duta Wacana (UKDW).
+
+Input:
+
+1. Data peserta KKN
+
+2. Data DPL dan APL
+
+3. Data kelompok KKN
+
+4. Input pemilihan randomisasi pembagian kelompok KKN
+
+5. Input manual atau pengaturan pembagian kelompok KKN oleh Admin Staff LPPM
+
+Ouput:
+
+1. Hasil pembagian kelompok KKN
+
+2. Informasi pembimbing DPL dan APL
+
+3. Notifikasi penerimaan peserta KKN
+
+4. Riwayat pembagian kelompok KKN
+
+5. Laporan pengelompokkan KKN (Rekap)
+

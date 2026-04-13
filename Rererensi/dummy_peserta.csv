@@ -1,0 +1,6 @@
+nim,nama,email,prodi,jenis_kelamin,bahasa_jawa,riwayat_penyakit,kebutuhan_khusus
+22001,Andi Saputra,andi@mail.com,Informatika,L,Bisa,-,-
+22002,Budi Santoso,budi@mail.com,Sistem Informasi,L,Tidak,Asma,-
+22003,Citra Dewi,citra@mail.com,Informatika,P,Bisa,-,Disabilitas ringan
+22004,Dewi Lestari,dewi@mail.com,Teknik Komputer,P,Tidak,-,-
+22005,Eko Prasetyo,eko@mail.com,Informatika,L,Bisa,Diabetes,-

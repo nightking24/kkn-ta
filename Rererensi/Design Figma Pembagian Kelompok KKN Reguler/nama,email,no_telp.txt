@@ -1,0 +1,11 @@
+nama,email,no_telp
+Andi Saputra,andi@gmail.com,081234567890
+Budi Santoso,budi@gmail.com,081234567891
+Citra Dewi,citra@gmail.com,081234567892
+Dedi Kurniawan,dedi@gmail.com,081234567893
+Eka Putri,eka@gmail.com,081234567894
+Fajar Nugroho,fajar@gmail.com,081234567895
+Gita Lestari,gita@gmail.com,081234567896
+Hendra Wijaya,hendra@gmail.com,081234567897
+Indah Sari,indah@gmail.com,081234567898
+Joko Prasetyo,joko@gmail.com,081234567899

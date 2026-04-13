@@ -1,0 +1,33 @@
+APLIKASI PEMBAGIAN KELOMPOK KKN REGULER BERBASIS WEB. STUDI KASUS UNIVERSITAS KRISTEN DUTA WACANA
+
+1. Sistem akan otomatis membuat pembagian kelompok, atau dipilih manual oleh staf LPPM. Kalau manual, apa kelebihannya dengan proses yg terjadi sekarang? Kalau otomatis bgmn caranya (metodenya)
+Jawab:
+Pertama sistem akan melakukan pembagian kelompok secara otomatis menggunakan metode randomisasi berbasis kriteria (constraint-based randomization dan weighted random distribution). Namun, staff LPPM juga bisa melakukan pembagian manual setelah hasil otomatis muncul untuk menangani (nenyesuaikan) kasus-kasus atau permasalahan seperti: peserta berkebutuhan khusus, permintaan khusus dari prodi, dsb. Jadi manual disini menjadi alat bantu koreksi setelah system melakukan pembagian otomatis.
+Kalau manual itu, kelebihannya adalah:
+a)	Ada tombol manual, yaitu tombol pindah dan tombol tukar dimana admin bisa menukar atau memindahkan peserta KKN ke kelompok lain, misalnya:
+-	Pindah Peserta secara manual:
+Admin LPPM memasukkan NIM peserta yang ingin dipindahkan dan memilih kelompok tujuan melalui pop-up dialog. Sistem akan langsung memindahkan peserta tersebut dari kelompok lama ke kelompok baru serta dapat mencatat log aktivitas perpindahan.
+-	Tukar Peserta secara manual:
+Admin LPPM dapat menukar dua atau lebih peserta antar kelompok KKN Reguler yang lain dengan memasukkan beberapa NIM sekaligus. Sistem akan menukar posisi beberapa peserta KKN Reguler tersebut.
+
+b)	Perubahan tercatat (log activity) sehingga dapat dilacak siapa memindahkannya atau menukarnya.
+Kalo otomatis nanti system akan melakukan pembagian kelompok otomatis menggunakan metode constraint-based randomization + weighted distribution yang dimana nanti system dapat membaca kriteria seperti: program studi, IPK, gender, asal wilayah, dan yang berkebutuhan khusus. Lalu system akan menentukan distribusi/pembagian kelompok yang ideal (seimbang) missal satu mahasiswa setiap prodi per kelompok. Kemudian system melakukan randomisasi berbobot sehingga pembagian tetap acak tapi adil dan seimbang (tidak berat sebelah dan tetap memenuhi constraint/ketentuan). Setelah hasil pembagian otomatis selesai, admin staff LPPM dapat melakukan penyesuaian manual bila diperlukan.
+
+2. Bagaimana sistem yg dibuat dapat membantu membagi kelompok. Misal distribusi tiap prodi harus merata, gender harus merata, ada kriteria khusus (misal lokasi ttt tdk boleh diisi oleh wanita)  dll
+Jawab:
+Sistem dapat bekerja Sistem bekerja dengan membaca dan memproses berbagai kriteria pembagian seperti program studi, gender, IPK, asal wilayah, hingga kondisi khusus peserta. Melalui metode constraint based randomization, sistem memastikan bahwa ketentuan-ketentuan/kriteria tersebut dipenuhi. Metode weighted random distribution juga digunakan untuk menjaga agar proses pembagian tetap acak namun tetap memperhatikan proporsi ideal dengan memperhatikan bobot tiap kriteria, supaya memenuhi constraint. Setelah pembagian kelompok otomatis telah selesai, pihak admin LPPM UKDW juga dapat melakukan manual dan dapat menyesuaikan agar dapat memilih peserta KKN yang misalnya memiliki Riwayat penyakit atau berkebuhan khusus, ataupun permintaan khusus lainnya untukn dipindahkan atau ditukar.
+
+
+
+
+3. Input (peserta KKN): data dibaca atau dientri manual oleh LPPM
+Jawab:
+Input peserta KKN dapat dibaca melalui import CSV yang didownload dari gform. Gform tersebut telah disiapkan oleh LPPM. Kemudian pada halaman input peserta KKN Reguler di dalam aplikasi yang saya buat nanti admin LPPM dapat mengunggah file CSV tersebut ke system saya. Dari situ, system akan membaca data dari CSV dan menyimpannya ke database, seperti NIM, nama, program studi, gender, asal wilayah, dan Riwayat penyakit.
+
+4. Apakah sistem juga mengelola DPL
+Jawab:
+Iya, tetapi pihak LPPM yang membagi ke kelompok, bukan oleh system. Begitu juga dengan APL. Fakultas memilih DPL yang kemudian di bagi oleh LPPM sendiri dan APL diperoleh melalui recruitment tetapi pembagiannya juga ditentukan langsung oleh LPPM langsung, bukan secara random. Admin LPPM hanya dapat menginputkan data DPL dan APL secara manual untuk memilih dan menempatkan ke dalam kelompok peserta KKN Reguler di halaman input. Di user DPL dan APL nantinya akan menampilkan informasi pembimbing di setiap kelompok peserta KKN Reguler.
+
+5. KKN yg dikelola hny KKN reguler atau semua jenis KKN - muncul di judul
+Jawab:
+APLIKASI PEMBAGIAN KELOMPOK KKN REGULER BERBASIS WEB. STUDI KASUS UNIVERSITAS KRISTEN DUTA WACANA

@@ -1,0 +1,49 @@
+Gambaran Alur Pindah Satu Peserta
+
+Admin membuka halaman kelompok
+
+Klik tombol “Pindahkan Peserta”
+
+Muncul pop-up
+
+Admin memasukkan NIM peserta
+
+Admin memilih kelompok tujuan
+
+Sistem memvalidasi:
+
+NIM valid?
+
+Peserta terdaftar?
+
+Kelompok tujuan tersedia?
+
+Sistem memindahkan peserta
+
+Sistem update database
+
+Sistem menyimpan log aktivitas
+
+Halaman tersimpan → kelompok diperbarui
+
+🟩 Gambaran Alur Tukar Peserta (Swap)
+
+Admin klik “Tukar Peserta”
+
+Pop-up muncul
+
+Admin input:
+
+NIM Peserta A
+
+NIM Peserta B
+
+Sistem mengambil kelompok masing-masing
+
+Sistem menukar posisi
+
+Sistem update database
+
+Sistem menyimpan log
+
+Tampilan kelompok diperbarui
